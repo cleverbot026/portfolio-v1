@@ -1,0 +1,42 @@
+.menu {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+
+}
+
+.menu-item {
+    background-color: #ecf0f1;
+    color: black;
+    padding: 1.5%;
+    flex-grow: 0;
+
+}
+
+.brand {
+
+    flex-grow: 2;
+    text-align: left;
+}
+
+.brand a {
+    padding-left: 1%;
+    font-weight: bold;
+}
+
+.brand a:hover {
+
+    color: #99E1D9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+
+    color: #FF3562;
+
+}
