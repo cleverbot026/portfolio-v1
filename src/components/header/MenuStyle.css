@@ -2,12 +2,12 @@
 
     display: flex;
     justify-content: space-around;
-    background-color: #ecf0f1;
+    background-color: #fafaff;
 
 }
 
 .menu-item {
-    background-color: #ecf0f1;
+    background-color: #fafaff;
     color: black;
     padding: 1.5%;
     flex-grow: 0;

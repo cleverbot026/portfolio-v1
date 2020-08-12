@@ -1,16 +1,37 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 // import { motion } from 'framer-motion';
-import Menu from './components/Menu/Menu'
+import Menu from './components/header/Menu';
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from 'react-router-dom';
+import Footer from "./components/footer/Footer";
+import Greet from './components/pages/Greet'
+import AboutMe from "./components/pages/AboutMe";
+import profilePic from './assets/pic_square.jpg';
+import Work from './components/pages/Work';
+import Education from "./components/pages/Education";
 
 function App() {
   return (
-    <div className="App">
-      <Menu/>
+      <Router>
+        <div className="App">
+          <Menu/>
 
+          <Greet/>
 
-    </div>
+          <AboutMe image={profilePic}/>
+          <Route exact path="\" component={Menu}/>
+          <Work/>
+
+          <Education/>
+
+          <Footer />
+
+        </div>
+      </Router>
   );
 }
 
