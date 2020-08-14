@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
 
 :root {
-
   --text-color: #52489C;
   --bg-color: #fafaff;
-
 }
 
-html {
-
-  background-color: var(--bg-color);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/*html {*/
+
+/*  background-color: var(--bg-color);*/
+/*}*/
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+    width: 5px;
+    height: 5px;
+}
+
+body::-webkit-scrollbar-track-piece {
+    width: 5px;
 }
 
 body::-webkit-scrollbar-track{
@@ -24,45 +33,137 @@ body::-webkit-scrollbar-thumb{
   background: #99E1D9;
 }
 
-.App {
-  font-family: 'Quicksand', sans-serif;
-  background-color: var(--bg-color);
-  text-align: center;
+.main {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--bg-color);
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+/* Nav */
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    z-index: 10000;
+    transition: 0.6s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s ease-in-out;
 }
 
-.App-header {
-  background-color: var(--bg-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.toggle:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    width: 100%;
+    height: 2px;
+    background: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toggle:after {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.main.active header .toggle:before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.main.active .toggle:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.main.active {
+    transform: translateX(-200px);
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    background: #40c3ff;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.navigation .active {
+    right: 0;
+}
+
+.navigation ul {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.navigation ul li {
+    list-style: none;
+    padding-bottom: 2em;
+}
+
+.navigation ul li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 /* Footer */
@@ -88,44 +189,6 @@ body::-webkit-scrollbar-thumb{
 }
 
 
-/* Menu */
-
-.menu {
-
-  display: flex;
-  justify-content: space-around;
-  background-color: #fafaff;
-}
-
-.menu-item {
-  background-color: transparent;
-  color: black;
-  padding: 1.5%;
-  flex-grow: 0;
-}
-
-.brand {
-  flex-grow: 2;
-  text-align: left;
-}
-
-.brand a {
-  padding-left: 1%;
-  font-weight: bold;
-}
-
-.brand a:hover {
-  color: #99E1D9;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #FF3562;
-}
 
 /* Pages */
 

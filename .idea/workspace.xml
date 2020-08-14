@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/FooterStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/MenuStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Greet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Greet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/PagesStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/PagesStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Work.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Nav.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +29,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="cleverbot026 &lt;jamesv.labnao@gmail.com&gt;." />
         <option value="cleverbot026 &lt;jamesv.labnao@gmail.com&gt;" />
+        <option value="cleverbot026 &lt;jamesv.labnao@gmail.com&gt;." />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,7 +94,8 @@
       <workItem from="1596945759686" duration="1026000" />
       <workItem from="1597025190906" duration="26213000" />
       <workItem from="1597209014044" duration="4549000" />
-      <workItem from="1597365852929" duration="8111000" />
+      <workItem from="1597365852929" duration="9009000" />
+      <workItem from="1597388721355" duration="11159000" />
     </task>
     <task id="LOCAL-00001" summary="[restore point lol] portfolio ver. 1">
       <created>1596764652388</created>
@@ -135,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597213082175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[restore point] design">
+      <created>1597374656904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597374656904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +159,7 @@
     <MESSAGE value="added markup for menu bar" />
     <MESSAGE value="[restore point] 2:16pm 8/12/2020" />
     <MESSAGE value="[restore point] 2:17pm 8/12/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="[restore point] 2:17pm 8/12/2020" />
+    <MESSAGE value="[restore point] design" />
+    <option name="LAST_COMMIT_MESSAGE" value="[restore point] design" />
   </component>
 </project>
