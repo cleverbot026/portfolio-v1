@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './PagesStyle.css';
 import { Link } from 'react-router-dom';
 
 class AboutMe extends Component {

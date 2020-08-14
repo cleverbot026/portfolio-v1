@@ -1,5 +1,4 @@
 import React from 'react'
-import './MenuStyle.css'
 import {
     Link
 } from 'react-router-dom';
@@ -14,7 +13,9 @@ import {
                 <div className='menu-item'><a>me</a></div>
                 <div className='menu-item'><a>work</a></div>
                 <div className='menu-item'><a>education</a></div>
-                <div className='menu-item'><a>projects</a></div>
+                <div className='menu-item'><a>contact</a></div>
+                <div className='menu-item'><a>resume</a></div>
+
             </nav>
 
 
