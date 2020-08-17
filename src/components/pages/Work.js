@@ -14,7 +14,7 @@ function Work() {
             },{
                 id: 2,
                 company: '88DB',
-                position: 'Intern',
+                position: 'Backend Developer Intern',
                 startDate: 'April, 2015',
                 endDate: 'May, 2015',
                 description: 'Iusto, explicabo exercitation. Porta taciti urna omnis consequatur tempor distinctio? ',
@@ -24,18 +24,18 @@ function Work() {
 
             const workList = workInfo.map(info =>
                 <div className={'works'} key={info.id}>
-                    <h1 className={''}> {info.position} </h1>
-                    <h3 className={''}> {info.company} </h3>
-                    <p className={''}> {info.startDate} - {info.endDate} </p>
-                    <p className={''}> {info.description} </p>
+                    <h3 className={'job-title'}> {info.position} </h3>
+                    <h4 className={'company'}> {info.company} </h4>
+                    <span className={'date'}> {info.startDate} - {info.endDate} </span>
+                    <p className={'desc'}> {info.description} </p>
                 </div>)
 
         return(
             <div className={'container'}>
                 <h2 className={'work-title'}>work experience</h2>
-                    <div >
+                    <>
                     {workList}
-                    </div>
+                    </>
             </div>
         )
 
