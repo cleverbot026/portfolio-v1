@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="[restore point] done i guess. not satisfied with the animation tho smh">
+    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1597728560094" duration="1346000" />
       <workItem from="1597822461823" duration="5537000" />
       <workItem from="1597856468804" duration="995000" />
-      <workItem from="1597899730620" duration="17365000" />
+      <workItem from="1597899730620" duration="18014000" />
     </task>
     <task id="LOCAL-00001" summary="[restore point lol] portfolio ver. 1">
       <created>1596764652388</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597625855411</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[restore point] done i guess. not satisfied with the animation tho smh">
+      <created>1597925368112</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597925368112</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
