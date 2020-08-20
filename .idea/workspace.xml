@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="[restore point] working navigation">
+    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="[restore point] done i guess. not satisfied with the animation tho smh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/AboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Greet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Greet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Work.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +97,12 @@
       <workItem from="1597388721355" duration="16602000" />
       <workItem from="1597452763534" duration="870000" />
       <workItem from="1597462888736" duration="1228000" />
-      <workItem from="1597562403700" duration="12731000" />
+      <workItem from="1597562403700" duration="12878000" />
+      <workItem from="1597641308749" duration="9660000" />
+      <workItem from="1597728560094" duration="1346000" />
+      <workItem from="1597822461823" duration="5537000" />
+      <workItem from="1597856468804" duration="995000" />
+      <workItem from="1597899730620" duration="17365000" />
     </task>
     <task id="LOCAL-00001" summary="[restore point lol] portfolio ver. 1">
       <created>1596764652388</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597405338734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[restore point] final design i guess for desktop. removed navigation.">
+      <created>1597625855411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597625855411</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,8 @@
     <MESSAGE value="[restore point] 2:17pm 8/12/2020" />
     <MESSAGE value="[restore point] design" />
     <MESSAGE value="[restore point] working navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[restore point] working navigation" />
+    <MESSAGE value="[restore point] final design i guess for desktop. removed navigation." />
+    <MESSAGE value="[restore point] done i guess. not satisfied with the animation tho smh" />
+    <option name="LAST_COMMIT_MESSAGE" value="[restore point] done i guess. not satisfied with the animation tho smh" />
   </component>
 </project>
