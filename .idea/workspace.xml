@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +103,8 @@
       <workItem from="1597728560094" duration="1346000" />
       <workItem from="1597822461823" duration="5537000" />
       <workItem from="1597856468804" duration="995000" />
-      <workItem from="1597899730620" duration="18014000" />
+      <workItem from="1597899730620" duration="21033000" />
+      <workItem from="1597987079107" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="[restore point lol] portfolio ver. 1">
       <created>1596764652388</created>

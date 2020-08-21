@@ -57,10 +57,9 @@ function Greet(){
                 <h1>Hi! I'm <span>James Labnao</span></h1>
             </div>
             <div className={'greet-body'}>
-                <p >Cursus tortor aliquet consequatur facere dignissimos fames iste sociis hac, dictum convallis
-                    Cursus tortor aliquet consequatur facere dignissimos fames iste sociis hac, dictum convallis
-                    fugiat rutrum sodales commodo habitant, aperiam cumque lectus.
-                    fugiat rutrum sodales commodo habitant, aperiam cumque lectus. </p>
+                <p >A progressive app enthusiast interested in innovating solutions for contemporary problems.
+                    Currently looking for a software developer position where I could learn a lot and improve
+                    my skills in programming. </p>
                 <span>Email me @ <a href={'mailto:jamesv.labnao@gmail.com'}>jamesv.labnao@gmail.com</a></span>
             </div>
         </motion.div>
