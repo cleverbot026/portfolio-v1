@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-v1/static/css/main.d70b1f82.chunk.css",
-    "main.js": "/portfolio-v1/static/js/main.362da62a.chunk.js",
-    "main.js.map": "/portfolio-v1/static/js/main.362da62a.chunk.js.map",
-    "runtime-main.js": "/portfolio-v1/static/js/runtime-main.3199ff24.js",
-    "runtime-main.js.map": "/portfolio-v1/static/js/runtime-main.3199ff24.js.map",
-    "static/js/2.02ed6cac.chunk.js": "/portfolio-v1/static/js/2.02ed6cac.chunk.js",
-    "static/js/2.02ed6cac.chunk.js.map": "/portfolio-v1/static/js/2.02ed6cac.chunk.js.map",
-    "index.html": "/portfolio-v1/index.html",
-    "precache-manifest.accf4208da39c112ba06ee4ea89c59d1.js": "/portfolio-v1/precache-manifest.accf4208da39c112ba06ee4ea89c59d1.js",
-    "service-worker.js": "/portfolio-v1/service-worker.js",
-    "static/css/main.d70b1f82.chunk.css.map": "/portfolio-v1/static/css/main.d70b1f82.chunk.css.map",
-    "static/js/2.02ed6cac.chunk.js.LICENSE.txt": "/portfolio-v1/static/js/2.02ed6cac.chunk.js.LICENSE.txt",
-    "static/media/pic_square.jpg": "/portfolio-v1/static/media/pic_square.4f6cdda3.jpg"
+    "main.css": "/v1/static/css/main.d70b1f82.chunk.css",
+    "main.js": "/v1/static/js/main.740659ae.chunk.js",
+    "main.js.map": "/v1/static/js/main.740659ae.chunk.js.map",
+    "runtime-main.js": "/v1/static/js/runtime-main.efb5f94e.js",
+    "runtime-main.js.map": "/v1/static/js/runtime-main.efb5f94e.js.map",
+    "static/js/2.02ed6cac.chunk.js": "/v1/static/js/2.02ed6cac.chunk.js",
+    "static/js/2.02ed6cac.chunk.js.map": "/v1/static/js/2.02ed6cac.chunk.js.map",
+    "index.html": "/v1/index.html",
+    "precache-manifest.223bd1065c2a4b53f012c3f12a422a6f.js": "/v1/precache-manifest.223bd1065c2a4b53f012c3f12a422a6f.js",
+    "service-worker.js": "/v1/service-worker.js",
+    "static/css/main.d70b1f82.chunk.css.map": "/v1/static/css/main.d70b1f82.chunk.css.map",
+    "static/js/2.02ed6cac.chunk.js.LICENSE.txt": "/v1/static/js/2.02ed6cac.chunk.js.LICENSE.txt",
+    "static/media/pic_square.jpg": "/v1/static/media/pic_square.4f6cdda3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3199ff24.js",
+    "static/js/runtime-main.efb5f94e.js",
     "static/js/2.02ed6cac.chunk.js",
     "static/css/main.d70b1f82.chunk.css",
-    "static/js/main.362da62a.chunk.js"
+    "static/js/main.740659ae.chunk.js"
   ]
 }
