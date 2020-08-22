@@ -3,7 +3,7 @@ import './App.css';
 import img from './assets/pic_square.jpg';
 import resume from './assets/resume_labnao.pdf';
 import {motion} from 'framer-motion';
-import { faSun, faMoon, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF, faGithubAlt, faInstagram, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
