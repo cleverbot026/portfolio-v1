@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="">
+    <list default="true" id="7aeda3c2-db60-4653-be32-a7f75e6aaf24" name="Default Changelist" comment="fixed content">
+      <change afterPath="$PROJECT_DIR$/src/assets/resume_labnao.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +105,9 @@
       <workItem from="1597822461823" duration="5537000" />
       <workItem from="1597856468804" duration="995000" />
       <workItem from="1597899730620" duration="21033000" />
-      <workItem from="1597987079107" duration="1212000" />
+      <workItem from="1597987079107" duration="4561000" />
+      <workItem from="1598014966668" duration="721000" />
+      <workItem from="1598078481746" duration="11778000" />
     </task>
     <task id="LOCAL-00001" summary="[restore point lol] portfolio ver. 1">
       <created>1596764652388</created>
@@ -162,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597925368112</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change greetings">
+      <created>1597988364271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597988364271</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +203,7 @@
     <MESSAGE value="[restore point] working navigation" />
     <MESSAGE value="[restore point] final design i guess for desktop. removed navigation." />
     <MESSAGE value="[restore point] done i guess. not satisfied with the animation tho smh" />
-    <option name="LAST_COMMIT_MESSAGE" value="[restore point] done i guess. not satisfied with the animation tho smh" />
+    <MESSAGE value="change greetings" />
+    <option name="LAST_COMMIT_MESSAGE" value="change greetings" />
   </component>
 </project>

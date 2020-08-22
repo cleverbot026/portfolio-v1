@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import img from './assets/pic_square.jpg'
+import img from './assets/pic_square.jpg';
+import resume from './assets/resume_labnao.pdf';
 import {motion} from 'framer-motion';
-import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faMoon, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookF, faGithubAlt, faInstagram, faLinkedinIn, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
@@ -52,14 +53,12 @@ const spring = {
 
 function Greet(){
     return(
-        <motion.div className={'container'} initial={{ opacity:0, y:50}} animate={{opacity:1, y:0 }} transition={{ease: "easeOut", duration: 0.5}}>
+        <motion.div className={'container'}>
             <div className={'greet-title'}>
                 <h1>Hi! I'm <span>James Labnao</span></h1>
             </div>
             <div className={'greet-body'}>
-                <p >A progressive app enthusiast interested in innovating solutions for contemporary problems.
-                    Currently looking for a software developer position where I could learn a lot and improve
-                    my skills in programming. </p>
+                <p >A full-stack developer wannabe that has a slight obsession to minimalism.</p>
                 <span>Email me @ <a href={'mailto:jamesv.labnao@gmail.com'}>jamesv.labnao@gmail.com</a></span>
             </div>
         </motion.div>
@@ -75,7 +74,7 @@ function AboutMe(){
     React.useEffect(() => {
         function handleScroll() {
             const yPos = window.scrollY;
-            const isScrollingUp = (yPos >= 469 && yPos <= 750) ? true : false;
+            const isScrollingUp = (yPos >= 450 && yPos <= 750) ? true : false;
             setShouldShow(isScrollingUp);
             setLastYpos(yPos);
             console.log(yPos);
@@ -90,16 +89,21 @@ function AboutMe(){
         <motion.div className={'container-about'}
                     animate={shouldShow && {opacity: 1, y: 0}}
                     initial={{opacity: 0, y:100}}
-                    transition={{ease: "easeOut", duration: 0.5}}>
+                    transition={{ease: "easeOut", duration: 1}}>
 
             <img className={'about-icon'} src={img} alt=""/>
             <div className={'about-body'}>
                 <h2 className={"about-title"}>about me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pretium congue mi nec auctor facilisi senectus
-                    aenean in suscipit vivamus, massa lobortis accumsan feugiat penatibus eget purus vulputate etiam
-                    mauris montes posuere dui bibendum nulla.
-                    <br/>
-                    <br/>
+                <p>Hi! I am James, a freelance developer living in Marikina City, a licensed teacher and a daddy to
+                    two cats. <br/><br/>
+                    I enjoy creating applications and putting myself up for a challenge. I always aim to learn new things
+                    from different experience. And, I also like playing games, be it tabletops RPG or MMORPG.
+                    <br/><br/>
+                    After graduating from <b>Polytechnic University of the Philippines</b> I teach Computer Programming
+                    subjects in a public high school in Marikina. Hoping to impart my knowledge
+                    and skills in programming to the future generation. Currently, I am looking for new
+                    ventures to improved my skills.
+                    <br/><br/>
                     Here are some of the technologies I've been working with recently:
                 </p>
                 <div className={'skills'}>
@@ -171,18 +175,14 @@ function Work() {
             position: 'Programming Teacher',
             startDate: 'June, 2016',
             endDate: 'August, 2020',
-            description: 'Iusto, explicabo exercitation. Porta taciti urna omnis consequatur tempor distinctio? Natoque, qui, nostra aliquet dicta, nulla beatae do! Tenetur aute.',
-            isActive: false,
-            standby: 'menu-02'
+            description: 'Teach C, HTML, CSS, JavaScript, PHP to Senior High School students.'
         },{
             id: 2,
             company: '88DB',
             position: 'Backend Developer Intern',
             startDate: 'April, 2015',
             endDate: 'May, 2015',
-            description: 'Iusto, explicabo exercitation. Porta taciti urna omnis consequatur tempor distinctio? ',
-            isActive: true,
-            standby: 'menu-01'
+            description: 'Fixed bugs and add functionalities to an existing in-house project.'
         }];
 
     const workList = workInfo.map(info =>
@@ -202,6 +202,9 @@ function Work() {
             <>
                 {workList}
             </>
+            <div className={'resume'}>
+                <a className={'icon arrow'} href={resume} target={'_blank'}>View my Resume</a>
+            </div>
         </motion.div>
     )
 

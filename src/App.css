@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');*/
 
 :root {
     --accent-color: #385623;
@@ -18,7 +19,7 @@
     --sub-title: .75rem;
 }
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -45,7 +46,12 @@ body::-webkit-scrollbar-thumb{
   background: var(--bg-color);
 }
 
+b,h2,h3,h4,h5,h6 {
+    color: var(--accent-color);
+}
+
 .main {
+    /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Quicksand', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -59,7 +65,6 @@ body::-webkit-scrollbar-thumb{
     flex-direction: column;
     align-items: center;
     transition: all 0.5s ease-in-out;
-    z-index: 2;
     scroll-behavior: smooth;
 
 }
@@ -205,7 +210,7 @@ header .logo {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-content: flex-start;
+    align-content: center;
     width: 100%;
     padding: 100px;
     text-align: left;
@@ -214,7 +219,8 @@ header .logo {
 
 .greet-title {
     text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .greet-title h1 {
@@ -227,12 +233,13 @@ header .logo {
 
 .greet-body {
     text-transform: full-width;
-    max-width: 60ch;
+    max-width: 35ch;
+    padding-bottom: 3%;
 }
 
 .greet-body span {
     display: inline-block;
-    padding-top: 5rem;
+    padding-top: 1rem;
     font-weight: 600;
 }
 
@@ -241,8 +248,13 @@ header .logo {
     text-decoration: none;
     color: var(--text-color);
     border-bottom: 3px solid var(--accent-color);
+    padding: 5px;
 }
-
+.greet-body span a:hover  {
+    background-color: var(--accent-color);
+    transition: all 0.3s ease;
+    color: white;
+}
 /* About */
 .container-about {
     width: 100%;
@@ -276,16 +288,33 @@ header .logo {
 }
 
 .about-icon {
-    /*position: relative;*/
-    /*right: -700px;*/
-    /*top: -425px;*/
-    /*border-radius: 50%;*/
+
     height: 200px;
     width: 200px;
+    margin-top: 10%;
     box-shadow: 9px 9px 0 1px var(--accent-color);
     -webkit-box-shadow: 9px 9px 0 1px var(--accent-color);
     -moz-box-shadow: 9px 9px 0 1px var(--accent-color);
 }
+
+/*.about-icon::before {*/
+/*    content:'';*/
+/*    position: absolute;*/
+/*    left: 300px;*/
+/*    height: 300px;*/
+/*    width: 30px;*/
+/*    border: solid var(--accent-color);*/
+/*    background: transparent;*/
+/*    transform: rotate(0deg) translate(-75%, 50%);*/
+/*    transition: transform 300ms ease-in-out;*/
+/*}*/
+
+/*.about-icon:hover::before {*/
+
+/*    opacity: 0;*/
+/*    transition: opacity .2s ease ;*/
+
+/*}*/
 
 .skills div {
     display: block;
@@ -339,8 +368,8 @@ header .logo {
 
 .works {
 
-    max-width: 50%;
-    padding-bottom: 2rem;
+    max-width: 40%;
+    padding-bottom: 1rem;
     position: relative;
     left: 30%;
     transition: 0.6s ease-in;
@@ -356,16 +385,19 @@ header .logo {
 
 .company {
     font-weight: lighter;
+    font-size: small;
     padding-top: 10px;
 }
 
 .date {
     font-weight: lighter;
-    font-style: italic;
+    font-size: small;
 }
 
 .desc {
     padding-top: 20px;
+    font-size: smaller;
+    max-width: 40ch;
 }
 
 .container-contact {
@@ -376,10 +408,48 @@ header .logo {
     place-items: center;
 }
 
+.icon {
+    color: var(--accent-color);
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+
+
+.icon::after {
+    display: inline-block;
+    margin-left: 10px;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.arrow::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+
+}
+
+.arrow:hover::after {
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.resume {
+
+    max-width: 40%;
+    padding-top: 1.5rem;
+    position: relative;
+    left: 30%;
+    transition: 0.6s ease-in;
+
+}
+
 .email {
 
     color: var(--accent-color);
-    padding: 15px;
+    padding: 13px;
     text-decoration: none;
     border: 3px solid var(--accent-color);
     text-align: center;
@@ -473,6 +543,11 @@ header .logo {
         max-width: 50ch;
     }
 
+    .greet-body span {
+        align-items: flex-end;
+        margin-top: 70%;
+    }
+
     .container-about {
         padding: 120px 30px;
         display: flex;
@@ -512,7 +587,7 @@ header .logo {
         position: relative;
         left: 0;
         color: var(--accent-color);
-        font-size: 2.3rem;
+        font-size: 2rem;
         padding-bottom: 10%;
 
     }
@@ -568,6 +643,36 @@ header .logo {
     .footer svg:hover {
         color: var(--accent-color);
         transition: .2s ease-in-out;
+    }
+
+
+    .icon::after {
+        display: inline-block;
+        margin-left: 10px;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .arrow::after{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+
+    }
+
+    .arrow:hover::after {
+        margin-left: 15px;
+        transition: all .2s ease-in-out;
+    }
+
+    .resume {
+
+        max-width: 50%;
+        padding-top: 1.5rem;
+        position: relative;
+        left: 30%;
+        transition: 0.6s ease-in;
+
     }
 }
 
